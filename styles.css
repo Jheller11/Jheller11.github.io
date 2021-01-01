@@ -172,7 +172,7 @@ body {
     180deg,
     rgba(255, 255, 255, 1) 0%,
     rgba(255, 255, 255, 1) 8%,
-    rgba(12, 10, 62, 1) 20%,
+    rgba(12, 10, 62, 1) 9%,
     rgba(12, 10, 62, 1) 100%
   );
   color: #ffffff;
@@ -196,6 +196,28 @@ body {
   height: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.contact a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #b14aedff;
+  text-decoration: none;
+}
+
+.contact a:active {
+  color: #7f7f7fff;
+}
+
+#contact-list {
+  list-style: none;
+}
+
+#contact-list > li {
+  margin: 0.5em 0;
 }
 
 /* Contact END */
