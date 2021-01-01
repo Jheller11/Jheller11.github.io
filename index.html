@@ -33,21 +33,38 @@
     ></script>
   </head>
   <body>
-    <nav class="navbar fixed-top bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Jeff Heller</span>
+        <a class="navbar-brand" href="#">Jeff Heller</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#about">about</a>
+            <a class="nav-link" href="#contact">contact</a>
+          </div>
+        </div>
       </div>
     </nav>
     <main class="container-fluid">
-      <div class="row landing">
+      <div class="row landing" id="about">
         <div class="col-sm-4">
           <div id="about-container">
             <div>
               <h6>Hi, I'm Jeff</h6>
               <p>
-                As a Solution Engineer, I bridge gaps between technical and
-                non-technical teams while navigating complex projects and
-                integrations.
+                As a Solution Engineer, I enable customers to realize value by
+                identifying problems and pain points and delivering custom
+                solutions that address those challenges.
               </p>
             </div>
           </div>
@@ -74,7 +91,7 @@
           </div>
         </div>
       </div>
-      <div class="row contact">
+      <div class="row contact" id="contact">
         <div class="col-sm-6">
           <div id="contact-animation-container">
             <img src="assets/mountains.png" alt="mountain outline" />
@@ -105,5 +122,10 @@
         </div>
       </div>
     </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
