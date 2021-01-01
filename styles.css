@@ -23,9 +23,17 @@ body {
   margin: 0 1em;
 }
 
+#about-container a {
+  color: #b14aedff;
+  text-decoration: none;
+}
+
+#about-container a:hover {
+  color: #595959ff;
+}
+
 #animation-container {
   display: flex;
-  flex-direction: row;
   height: 100%;
   justify-content: center;
   align-items: center;
