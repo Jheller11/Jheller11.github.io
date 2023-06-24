@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_2023_profile_new=self.webpackChunk_2023_profile_new||[]).push([[464],{464:function(e,p,s){e.exports=s.p+"static/media/002.5d1fad7241999d092612.md"}}]);
